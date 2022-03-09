@@ -317,17 +317,17 @@ const Landing = () => {
             </a>
             <img src={Afrilogo} width={100} height={70} alt="" />
             <div className="footerimage">
-              <a href="#" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
                 {" "}
                 <img src={instagram} alt="" />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
                 <img src={facebooki} alt="" />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
                 <img src={twitter} alt="" />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
                 <img src={youtube} alt="" />
               </a>
             </div>
