@@ -310,7 +310,7 @@ const Landing = () => {
         <div className="firstFooter">
           <div className="landingfooter">
             <p>Copyright &copy; 2022.realLandLord. All rights reserved </p>
-            <a href="#" target="_blank">
+            <a href="https://porfolio-lemon.vercel.app/" >
               {" "}
               <p>Privacy policy</p>
             </a>
