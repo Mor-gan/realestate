@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../Styles/landing.css";
 import Afrilogo from "../Images/Afrilogo.png";
@@ -236,7 +235,7 @@ const Landing = () => {
                   <img src={apple} width={150} height={40} alt="" />
                 </div>
               </div>
-              <a href="http://bit.ly/afrilearnfc" target="_blank">
+              <a href="http://bit.ly/afrilearnfc" >
                 {" "}
                 <button type="submit">JOIN OUR COMMUNITY</button>
               </a>
@@ -317,17 +316,17 @@ const Landing = () => {
             </a>
             <img src={Afrilogo} width={100} height={70} alt="" />
             <div className="footerimage">
-              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/" >
                 {" "}
                 <img src={instagram} alt="" />
               </a>
-              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/" >
                 <img src={facebooki} alt="" />
               </a>
-              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/">
                 <img src={twitter} alt="" />
               </a>
-              <a href="https://porfolio-lemon.vercel.app/" target="_blank">
+              <a href="https://porfolio-lemon.vercel.app/" >
                 <img src={youtube} alt="" />
               </a>
             </div>
