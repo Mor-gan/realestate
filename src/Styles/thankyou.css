@@ -1,0 +1,228 @@
+* {
+  padding: none;
+  margin: none;
+  font-family: Nunito;
+}
+
+.firstContainer {
+  background-color: #ffffff;
+}
+.mainContainer {
+  background-color: rgb(78, 16, 78);
+}
+.thankFirst {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.thankLogo {
+  margin-left: 50px;
+}
+
+.thankGroup {
+  margin-left: auto
+}
+
+.thankCircle {
+margin-left:50%;
+}
+.thankFirstHead h2{
+  color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 4rem;
+}
+.thankFistDiv {
+  display: flex;
+  flex-direction: row;
+}
+.thankFirstPara {
+  margin-left: 50px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+  margin-right: 100px;
+}
+.thankSecondPara {
+  margin-left: 50px;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.thankSecondHead {
+  margin-left: 50px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-size: 24px;
+}
+.thankThirdPara {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 20px;
+}
+.thankThirdPara img {
+  margin-right: 10px;
+  border: 2px solid #ccc;
+}
+.thankThirdHead {
+  color: white;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 24.5px;
+}
+.thankImages {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.thankImagesApple {
+  margin-top: 9px;
+}
+.thankFistDiv button {
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+  background-color: #4b7507;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 15px;
+}
+.thankSecondDivPerson {
+  margin-left: 200px;
+}
+.thankSecondDivVec {
+  margin-left: 700px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.Emoji {
+  color: red;
+  size: 100px;
+}
+.testimonialDiv {
+  background-color: #ffffff;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.testimonialDiv img {
+  margin-left: 10%;
+  margin-top: 15px;
+
+}
+.testimonialDiv h1 {
+  margin-left: 15%;
+  font-weight: 400;
+  margin-top: auto;
+}
+.testimonialDiv p {
+  margin-left: 15%;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.card {
+  width: 300px;
+  margin: 50px;
+  /* padding: 32px; */
+  height: max-content;
+}
+.card img {
+  /* margin-left: 2px; */
+  margin-bottom: 5px;
+  padding-right: 2px;
+}
+  .container-fluid {
+ display: flex;
+ flex-direction: row;
+ padding:0 0 0 15%
+}
+@media only screen and (max-width: 600px){
+.logoImage img{
+  height: 40%;
+}
+  .thankCircle img{
+    margin-left: 5%;
+  }
+  .thankGroup img{
+    height: 70%;
+  }
+  .thankFirstHead h2{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .thankFirstPara {
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-right: 100px;
+  }
+  .thankSecondPara {
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .thankThirdPara {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .thankSecondHead {
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 23px;
+  }
+  .thankThirdHead {
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    /* font-weight: 400; */
+  }
+  .thankImages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  .thankFistDiv button {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-color: #84bb29;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .thankSecondDiv{
+    display: none;
+  }
+  .container-fluid{
+    display: block;
+    padding: 0 0 0 5%; 
+  }
+}
