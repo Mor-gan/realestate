@@ -226,7 +226,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="thankImages">
-                <div className="thankImagesGoogle">
+                <div id="thankImagesGoogle">
                   <img src={google} width={150} height={60} alt="" />
                 </div>
                 <div className="thankImagesApple">
@@ -234,8 +234,7 @@ const Landing = () => {
                 </div>
               </div>
               <a href="#" >
-                {" "}
-                <button type="submit">JOIN OUR COMMUNITY</button>
+                <button id="communitylink" type="submit">JOIN OUR COMMUNITY</button>
               </a>
             </div>
             <div className="thankSecondDiv">
@@ -314,17 +313,17 @@ const Landing = () => {
             </a>
             <img src={Afrilogo} width={100} height={70} alt="" />
             <div className="footerimage">
-              <a href="https://porfolio-lemon.vercel.app/" >
+              <a href="/" >
                 {" "}
                 <img src={instagram} alt="" />
               </a>
-              <a href="https://porfolio-lemon.vercel.app/" >
+              <a href="/" >
                 <img src={facebooki} alt="" />
               </a>
-              <a href="https://porfolio-lemon.vercel.app/">
+              <a href="/">
                 <img src={twitter} alt="" />
               </a>
-              <a href="https://porfolio-lemon.vercel.app/" >
+              <a href="/" >
                 <img src={youtube} alt="" />
               </a>
             </div>
