@@ -235,7 +235,7 @@ const Landing = () => {
                   <img src={apple} width={150} height={40} alt="" />
                 </div>
               </div>
-              <a href="http://bit.ly/afrilearnfc" >
+              <a href="#" >
                 {" "}
                 <button type="submit">JOIN OUR COMMUNITY</button>
               </a>
