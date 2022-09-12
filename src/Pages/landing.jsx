@@ -11,8 +11,6 @@ import facebooki from "../Images/facebooki.svg";
 import Lemon from "../Images/Lemon.png";
 import Vector from "../Images/Vector.png";
 import landingCircle from "../Images/landingCircle.png";
-// import { TextInput } from 'react-native-paper';
-//  thankyouinport
 import "../Styles/thankyou.css";
 import Rectangle from "../Images/Rectangle.jpg";
 import apple from "../Images/apple.jpg";
