@@ -109,7 +109,8 @@ const Landing = () => {
               required
             />
         
-            <button className="landingIbutton" onclick="handleSubmit()">
+            <button id="communitylink" className="landingIbutton" onclick={handleSubmit}
+            >
               Sign Up
             </button>
             <p>Your information is safe with us.</p>
